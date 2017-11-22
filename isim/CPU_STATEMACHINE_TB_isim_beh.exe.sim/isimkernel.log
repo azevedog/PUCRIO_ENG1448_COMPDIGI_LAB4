@@ -1,0 +1,28 @@
+Command line:
+   CPU_STATEMACHINE_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54567
+
+Sun Nov 19 11:32:47 2017
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 533.574 Meg
+
+ Total Signals          : 69
+ Total Nets             : 1215
+ Total Signal Drivers   : 37
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 15
+ Total Traceable Variables  : 73
+ Total Scalar Nets and Variables : 1853
+
+ Total Simulation Time: 0.65625 sec
+
+ Current Memory Usage: 690.86 Meg
+
+Sun Nov 19 11:34:40 2017
+

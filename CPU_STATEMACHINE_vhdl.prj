@@ -1,0 +1,5 @@
+vhdl work "C:\Users\gazevedo\Desktop\LAB4\LabCPU\LCDlib\PROCESADOR_LCD4BITS.vhd"
+vhdl work "C:\Users\gazevedo\Desktop\LAB4\LabCPU\LCDlib\COMMANDS_LCD4BITS.vhd"
+vhdl work "C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU\ROMAssincrona.vhd"
+vhdl work "C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU\CONTADOR_MODULOM.vhd"
+vhdl work "C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU\CPU_STATEMACHINE.vhd"

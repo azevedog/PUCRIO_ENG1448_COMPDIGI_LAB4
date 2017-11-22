@@ -1,0 +1,6 @@
+vhdl work "../LCDlib/PROCESADOR_LCD4BITS.vhd"
+vhdl work "../LCDlib/COMMANDS_LCD4BITS.vhd"
+vhdl work "ROMAssincrona.vhd"
+vhdl work "CONTADOR_MODULOM.vhd"
+vhdl work "CPU_STATEMACHINE.vhd"
+vhdl work "CPU_STATEMACHINE_TB.vhd"

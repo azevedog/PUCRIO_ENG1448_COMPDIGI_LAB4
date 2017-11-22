@@ -1,0 +1,95 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from B:/XILINX/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [B:/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [B:/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/pa.fromHdl.tcl
+# create_project -name CPU -dir "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/planAhead_run_3" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:19 . Memory (MB): peak = 460.465 ; gain = 79.980
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "CPU_STATEMACHINE.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../LCDlib/PROCESADOR_LCD4BITS.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../LCDlib/COMMANDS_LCD4BITS.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ROMAssincrona.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CONTADOR_MODULOM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CPU_STATEMACHINE.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top CPU_STATEMACHINE $srcset
+# add_files [list {CPU_STATEMACHINE.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "B:/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "B:/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/PROCESADOR_LCD4BITS.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/COMMANDS_LCD4BITS.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/ROMAssincrona.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CONTADOR_MODULOM.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library B:/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [B:/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [B:/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from B:/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : B:/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library B:/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OUTLED[7]' [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf:7]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OUTLED[6]' [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf:8]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OUTLED[5]' [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf:9]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'OUTLED[4]' [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf:10]
+Finished Parsing UCF File [C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 3864ea08
+open_rtl_design: Time (s): elapsed = 00:00:43 . Memory (MB): peak = 585.086 ; gain = 109.512
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin M15 [get_ports {OUTLCD[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {OUTLCD[2]}]]
+startgroup
+set_property package_pin P17 [get_ports {OUTLCD[2]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {OUTLCD[1]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {OUTLCD[0]}]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin L17 [get_ports RW]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Nov 19 11:49:06 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

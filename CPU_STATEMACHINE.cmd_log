@@ -1,0 +1,136 @@
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.tfi -module CPU_STATEMACHINE -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work CPU_STATEMACHINE.vhd 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula2/Desktop/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/aula/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 
+xst -intstyle ise -ifn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.xst" -ofn "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CPU_STATEMACHINE.ucf -p xc3s500e-fg320-4 CPU_STATEMACHINE.ngc CPU_STATEMACHINE.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ngd CPU_STATEMACHINE.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_STATEMACHINE_map.ncd CPU_STATEMACHINE.ncd CPU_STATEMACHINE.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU_STATEMACHINE.twx CPU_STATEMACHINE.ncd -o CPU_STATEMACHINE.twr CPU_STATEMACHINE.pcf -ucf CPU_STATEMACHINE.ucf 
+bitgen -intstyle ise -f CPU_STATEMACHINE.ut CPU_STATEMACHINE.ncd 

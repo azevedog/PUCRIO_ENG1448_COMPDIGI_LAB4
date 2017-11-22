@@ -1,0 +1,6 @@
+vhdl isim_temp "../LCDlib/PROCESADOR_LCD4BITS.vhd"
+vhdl isim_temp "../LCDlib/COMMANDS_LCD4BITS.vhd"
+vhdl isim_temp "ROMAssincrona.vhd"
+vhdl isim_temp "CONTADOR_MODULOM.vhd"
+vhdl isim_temp "CPU_STATEMACHINE.vhd"
+vhdl isim_temp "CPU_STATEMACHINE_TB.vhd"

@@ -1,0 +1,29 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB_isim_beh.exe" -prj "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB_beh.prj" "work.CPU_STATEMACHINE_TB" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/../LCDlib/PROCESADOR_LCD4BITS.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/../LCDlib/COMMANDS_LCD4BITS.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/ROMAssincrona.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CONTADOR_MODULOM.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.vhd" into library work
+Parsing VHDL file "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package commands_lcd4bits
+Compiling architecture behavioral of entity ROMAssincrona [romassincrona_default]
+Compiling architecture behavioral of entity ContadorModuloM [\ContadorModuloM(5,10)\]
+Compiling architecture behavioral of entity PROCESADOR_LCD4BITS [procesador_lcd4bits_default]
+Compiling architecture behavioral of entity CPU_STATEMACHINE [cpu_statemachine_default]
+Compiling architecture behavior of entity cpu_statemachine_tb
+Time Resolution for simulation is 1ps.
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB_isim_beh.exe
+Fuse Memory Usage: 38520 KB
+Fuse CPU Usage: 874 ms

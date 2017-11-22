@@ -1,0 +1,6 @@
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.tfi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ROMAssincrona.vhd 
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.tfi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ROMAssincrona.vhd 
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.tfi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ROMAssincrona.vhd 
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.tfi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ROMAssincrona.vhd 
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.tfi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ROMAssincrona.vhd 
+vhdtdtfi -prj CPU -o C:/Users/aula2/Desktop/LabCPU/CPU/ROMAssincrona.vhi -module ROMAssincrona -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ROMAssincrona.vhd 

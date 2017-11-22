@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB_isim_beh.exe" -prj "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE_TB_beh.prj" "work.CPU_STATEMACHINE_TB" 

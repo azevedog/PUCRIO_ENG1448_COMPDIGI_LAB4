@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+RAMSincrona instance_name (
+    .CLK(CLK), 
+    .WE(WE), 
+    .ADDR(ADDR), 
+    .DIN(DIN), 
+    .DOUT(DOUT)
+    );
+
+

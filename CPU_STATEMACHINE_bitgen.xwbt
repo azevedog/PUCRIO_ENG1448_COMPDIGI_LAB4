@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU\CPU_STATEMACHINE.ncd
+OUTFILE=C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU\CPU_STATEMACHINE.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\gazevedo\Desktop\LAB4\LabCPU\CPU
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\aula\Desktop\LAB4\LabCPU\CPU\impact.xsl
+OUTFILE=C:\Users\aula\Desktop\LAB4\LabCPU\CPU\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\aula\Desktop\LAB4\LabCPU\CPU
+LICENSE=iMPACT
+USER_INFO=iMPACT

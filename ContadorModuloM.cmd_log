@@ -1,0 +1,1 @@
+vhdtdtfi -prj CPU -o C:/Users/aula/Desktop/LAB4/LabCPU/CPU/ContadorModuloM.vhi -module ContadorModuloM -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CONTADOR_MODULOM.vhd 

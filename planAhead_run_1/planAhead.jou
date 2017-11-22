@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Mon Nov 13 12:35:56 2017
+# Process ID: 7192
+# Log file: C:/Users/aula/Desktop/LAB4/LabCPU/CPU/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/aula/Desktop/LAB4/LabCPU/CPU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/aula/Desktop/LAB4/LabCPU/CPU/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {OUTLED[7]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {OUTLED[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {OUTLED[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {OUTLED[4]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {OUTLED[3]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {OUTLED[2]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {OUTLED[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {OUTLED[0]}]
+endgroup
+save_constraints

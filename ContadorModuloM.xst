@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/xst"
+elaborate
+-ifn ContadorModuloM.prj
+-ifmt mixed

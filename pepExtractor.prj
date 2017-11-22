@@ -1,0 +1,5 @@
+work	"../LCDlib/COMMANDS_LCD4BITS.vhd"
+work	"../LCDlib/PROCESADOR_LCD4BITS.vhd"
+work	"CONTADOR_MODULOM.vhd"
+work	"CPU_STATEMACHINE.vhd"
+work	"ROMAssincrona.vhd"

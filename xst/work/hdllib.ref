@@ -1,0 +1,12 @@
+AR ramsincrona behavioral C:/Users/aula2/Desktop/LabCPU/CPU/RAMSincrona.vhd sub00/vhpl01 1509974761
+EN ramsincrona NULL C:/Users/aula2/Desktop/LabCPU/CPU/RAMSincrona.vhd sub00/vhpl00 1509974760
+AR romassincrona behavioral C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/ROMAssincrona.vhd sub00/vhpl03 1511107745
+PB commands_lcd4bits commands_lcd4bits C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/COMMANDS_LCD4BITS.vhd sub00/vhpl09 1511107743
+AR procesador_lcd4bits behavioral C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/PROCESADOR_LCD4BITS.vhd sub00/vhpl11 1511107749
+EN procesador_lcd4bits NULL C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/PROCESADOR_LCD4BITS.vhd sub00/vhpl10 1511107748
+EN romassincrona NULL C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/ROMAssincrona.vhd sub00/vhpl02 1511107744
+EN cpu_statemachine NULL C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.vhd sub00/vhpl04 1511107750
+AR contadormodulom behavioral C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CONTADOR_MODULOM.vhd sub00/vhpl07 1511107747
+EN contadormodulom NULL C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CONTADOR_MODULOM.vhd sub00/vhpl06 1511107746
+PH commands_lcd4bits NULL C:/Users/gazevedo/Desktop/LAB4/LabCPU/LCDlib/COMMANDS_LCD4BITS.vhd sub00/vhpl08 1511107742
+AR cpu_statemachine behavioral C:/Users/gazevedo/Desktop/LAB4/LabCPU/CPU/CPU_STATEMACHINE.vhd sub00/vhpl05 1511107751
